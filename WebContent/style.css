@@ -1,0 +1,298 @@
+body {
+    background: linear-gradient(135deg, #f5f1eb 0%, #e8dfd8 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 253, 250, 0.95);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(139, 107, 82, 0.1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #e0d6cc;
+}
+
+/* En-tête */
+header h1 {
+    color: #5D4037 !important;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #D7CCC8;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.text-muted {
+    color: #8D6E63 !important;
+}
+
+.text-success {
+    color: #795548 !important;
+}
+
+/* Cartes */
+.card {
+    border: 1px solid #D7CCC8;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #FFFBF7;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(139, 107, 82, 0.15) !important;
+    border-color: #BCAAA4;
+}
+
+.card-header {
+    background: linear-gradient(135deg, #6D4C41 0%, #8D6E63 100%) !important;
+    border-bottom: 1px solid #5D4037;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+}
+
+.card-header.bg-info {
+    background: linear-gradient(135deg, #A1887F 0%, #BCAAA4 100%) !important;
+    border-bottom: 1px solid #8D6E63;
+}
+
+.card-header.bg-success {
+    background: linear-gradient(135deg, #795548 0%, #8D6E63 100%) !important;
+    border-bottom: 1px solid #6D4C41;
+}
+
+/* Boutons */
+.btn-primary {
+    background: linear-gradient(135deg, #8D6E63 0%, #A1887F 100%);
+    border: 1px solid #6D4C41;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #795548 0%, #8D6E63 100%);
+    border-color: #5D4037;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(141, 110, 99, 0.4);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #6D4C41 0%, #8D6E63 100%);
+    border: 1px solid #5D4037;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background: linear-gradient(135deg, #5D4037 0%, #795548 100%);
+    border-color: #4E342E;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(109, 76, 65, 0.4);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #D7CCC8 0%, #EFEBE9 100%);
+    border: 1px solid #BCAAA4;
+    color: #5D4037;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(135deg, #BCAAA4 0%, #D7CCC8 100%);
+    border-color: #A1887F;
+    color: #4E342E;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #BF360C 0%, #D84315 100%);
+    border: 1px solid #BF360C;
+}
+
+/* Formulaire */
+.form-control {
+    background-color: #FFFBF7;
+    border: 2px solid #D7CCC8;
+    border-radius: 8px;
+    color: #5D4037;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    background-color: #FFFBF7;
+    border-color: #8D6E63;
+    box-shadow: 0 0 0 0.2rem rgba(141, 110, 99, 0.25);
+    color: #3E2723;
+}
+
+.form-label {
+    color: #5D4037;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+/* Table */
+.table {
+    color: #5D4037;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table thead th {
+    background: linear-gradient(135deg, #EFEBE9 0%, #D7CCC8 100%);
+    border-bottom: 2px solid #BCAAA4;
+    color: #5D4037;
+    font-weight: 600;
+    padding: 15px;
+    border-top: none;
+}
+
+.table tbody tr {
+    background-color: #FFFBF7;
+    border-bottom: 1px solid #EFEBE9;
+    transition: all 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #F5EFE6;
+    transform: scale(1.01);
+    box-shadow: 0 3px 10px rgba(139, 107, 82, 0.1);
+}
+
+.table td {
+    padding: 15px;
+    vertical-align: middle;
+    border-color: #EFEBE9;
+}
+
+/* Badge */
+.badge {
+    background: linear-gradient(135deg, #A1887F 0%, #BCAAA4 100%);
+    color: #5D4037;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #8D6E63;
+}
+
+/* Modal */
+.modal-content {
+    background: #FFFBF7;
+    border: 1px solid #D7CCC8;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.modal-header {
+    background: linear-gradient(135deg, #6D4C41 0%, #8D6E63 100%);
+    border-bottom: 1px solid #5D4037;
+}
+
+.modal-body {
+    color: #5D4037;
+}
+
+.btn-close {
+    filter: invert(1) brightness(100%);
+}
+
+/* Animation pour les lignes du tableau */
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(10px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+.table tbody tr {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Loading spinner */
+.spinner-border.text-primary {
+    color: #8D6E63 !important;
+    border-width: 0.25em;
+}
+
+/* Alertes */
+.alert-warning {
+    background-color: rgba(255, 248, 225, 0.9);
+    border: 1px solid #FFECB3;
+    color: #5D4037;
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+    }
+    
+    .card-header {
+        padding: 0.75rem 1rem;
+    }
+    
+    .table td, .table th {
+        padding: 10px 8px;
+    }
+    
+    .btn {
+        padding: 8px 15px;
+    }
+}
+
+/* Effets supplémentaires */
+.input-group {
+    box-shadow: 0 2px 5px rgba(139, 107, 82, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.input-group .form-control {
+    border-right: none;
+}
+
+.input-group .btn {
+    border-left: none;
+}
+
+/* Ombre portée pour les sections */
+.row > div {
+    filter: drop-shadow(0 5px 15px rgba(139, 107, 82, 0.1));
+}
+
+/* Barre de défilement personnalisée */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #EFEBE9;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #A1887F 0%, #BCAAA4 100%);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #8D6E63 0%, #A1887F 100%);
+}

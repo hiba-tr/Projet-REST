@@ -1,0 +1,5 @@
+com\info\router\RestRouter.class
+com\info\service\PersonService.class
+com\info\service\PersonServiceImpl.class
+com\info\db\ConnexionDB.class
+com\info\model\Person.class
